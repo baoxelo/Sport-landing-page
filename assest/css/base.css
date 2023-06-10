@@ -1,0 +1,53 @@
+:root {
+    --text-color: #353535;
+    --text-white: #f0f0f0;
+    --white-color: #fff;
+    --laker-yellow: #fcb724;
+    --laker-purple: #54287e;
+    --background-color: rgb(35, 35, 35);
+    --banner-height: 90px;
+    --border-color: #414141;
+    --modal-height: 400px;
+    --legend-height: 275px;
+    --modalticket-height: 450px;
+}
+html {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+.hiden {
+    display: none;
+}
+.showed {
+    display: flex;
+}
+.scrool-smooth {
+    scroll-behavior: smooth;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.border_box {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    opacity: 1;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

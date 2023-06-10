@@ -1,0 +1,568 @@
+/* Mini pc tablet mobile */
+@media (max-width: 1280px){
+    
+    #banner .banner__info {
+        display: none;
+    }
+    #slider {
+        height: 550px;
+    }
+    .slider__heading {
+        font-size: 2.8rem;
+        max-width: 900px;
+    }
+    .slider__item {
+        margin-right: 20px;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+
+    }
+    .legend__item {
+        padding: 20px;
+    }
+    .legend__item { 
+        width: 100%;
+    }
+}
+/* Tablet & mobile */
+@media (max-width: 1023px){
+    .show-on-tabletmobile {
+        display: flex;
+    }
+    .hide-on-tabletmobile {
+        display: none;
+    }
+    #banner .banner__info {
+        display: flex;
+    }
+    .banner__nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: none;
+        justify-content: right;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 5;
+        
+    }
+    .banner__nav-wrap {
+        position: relative;
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: unset;
+        background-color: var(--background-color);
+        animation: slidein ease 0.5s;
+    }
+    .banner__nav-close, 
+    .banner__mainnav-list,
+    .banner__smallnav-list,
+    .banner__info {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .banner__nav-close {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 62px;
+        box-sizing: border-box;
+    }
+    .banner__mainnav-list {
+        display: block;
+        padding: 0;
+    }
+    
+    .banner__nav-item {
+        position: unset;
+        padding-left: 30px;
+        margin: 0;
+        height: 62px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid var(--border-color);
+    }
+    .banner__nav-link {
+        font-size: 1.2rem;
+        white-space: normal;
+    }
+    .banner__smallnav-list {
+        display: block;
+        padding-right: 0;
+    }
+    .banner__smallnav-item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+        padding-left: 30px;
+        min-height: 62px;
+        border-bottom: 1px solid var(--border-color);
+    }
+    .banner__smallnav-list .banner__smallnav-item:hover .banner__smallnav--subnav-list {
+        display: none;
+    }
+    .banner__smallnav-list .banner__smallnav-item .banner__smallnav-show:hover + .banner__smallnav--subnav-list{
+        display: flex;
+    }
+    .banner__nav-wrap .banner__smallnav-list .banner__smallnav-item .banner__smallnav--subnav-list:hover {
+        display: flex;
+    }
+    .banner__nav-wrap {
+        overflow: scroll;
+    }
+    .banner__smallnav-show {
+        display: flex;
+    }
+    .banner__smallnav-show:hover .banner__smallnav-showicon {
+        transform: rotate(0);
+        animation: rotatesmallnav ease-in 0.2s;
+        
+    }
+    @keyframes rotatesmallnav {
+        from {
+            transform: rotate(-90deg);
+        }
+        to {
+            transform: rotate(0);
+        }
+    }
+    .banner__smallnav-link {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        height: 62px;
+    }
+    .banner__smallnav-item:active .banner__smallnav--subnav-list { 
+        display: flex;
+    }
+
+    .banner__smallnav--subnav-list {
+        position: relative;
+        padding: 0;
+        box-shadow: none;
+        background-color: transparent;
+        width: 100%;
+    }
+    .schedule__button:hover {
+        border: 2px solid var(--laker-yellow);
+    }
+    @keyframes slideTop {
+        from {
+            transform: translateY(100%);
+        }
+        to{
+            transform: translateY(0);
+        }
+    }
+    .banner__smallnav--subnav-item {
+        padding: 10px 0;
+    }
+    .banner__smallnav--subnav-link {
+        font-weight: 400;
+        display: inline;
+    }
+    .banner__info {
+        padding-left: 30px;
+        
+    }
+    .banner__smallnav-item:hover .banner__smallnav--subnav-list {
+        display: block;
+    }
+    .banner__smallnav--subnav-list {
+        position: relative;
+    }
+    .modal-ticket-num-decrease,
+    .modal-ticket-num-increase {
+        padding: 2px 8px 0;
+    }
+    /*Schedule*/
+    
+    #schedule {
+        display: block;
+    }
+    .schedule__brand {
+        width: 100%;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid var(--border-color);
+    }
+    .schedule__bar {
+        width: 100%;
+    }
+    
+    .slider__heading {
+        font-size: 2.5rem;
+    }
+    /*Store*/
+    
+    .store__list {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .store__item {
+        display: inline-block;
+        width: 49.7%;
+        box-sizing: border-box;
+    }
+    .store__item-img {
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+    
+    /*Footer*/
+    
+    .footer__head {
+        flex-wrap: wrap;
+    }
+    .footer__left-list {
+        flex-wrap: wrap;
+    }
+    .footer__right-list {
+        flex-direction: row;
+    }
+    .footer__right-link {
+        margin-right: 20px;
+    }
+    .footer__left-item {
+        min-width: 50%;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+    /*Modal*/
+    .modal {
+        align-items: center;
+        justify-content: right;
+    }
+    .modal__container {
+        margin-left: 0;
+        transform: translateY(0);
+        width: 700px;
+        height: 350px;
+    }
+    .modal__heading {
+        font-size: 2.5rem;
+    }
+    .modal__slider {
+        height: 350px;
+    }
+    .modal__slider-img {
+        height: 400px;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+
+
+
+
+
+/* Mobile */
+@media (max-width: 723px){
+    :root {
+        --bannermobile-height : 50px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .header__bar {
+        padding: 8px 16px;
+    }
+    .header__nav-item {
+        padding-left: 10px;
+    }
+    .header__nav-link {
+        font-size: 0.775rem;
+        white-space: nowrap;
+        height: none;        
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .header__nav-icon {
+        font-size: 0.75rem;
+    }
+    .header__subnav {
+        left: 0;
+        transform: translateX(-20%);
+    }
+    .banner__bar {
+        height: var(--bannermobile-height);
+    }
+    .cross-bar {
+        height: 40px;
+    }
+    .banner__nav-logo {
+        height: var(--bannermobile-height);
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+    .banner__bar-menu-icon {
+        padding: 0;
+        font-size: 1.5rem;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .banner__search {
+        height: var(--bannermobile-height);
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .banner__search-link {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    .banner__search-box {
+        top: 100%;
+        width: 100vw;
+        height: var(--bannermobile-height);
+        box-sizing: border-box;
+        outline: none;
+    }
+    .banner__search-box--icon {
+        margin-left: 0;
+    }
+    /*Schedule */
+    .schedule__button {
+        width: 6vw;
+        box-sizing: border-box;    
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .schedule__item {
+        width: 88vw;
+    }
+    .slider__item.active {
+        border: none;
+    }
+    .schedule__item-wrap {
+        padding: 10px 10px 0;
+    }
+    .slider__heading {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        height: 6rem;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+    .slider__item {
+        height: 50px;
+        margin-right: 0;
+    }
+    .slider__item-footer-icon {
+        font-size: 1.5rem;
+        filter: brightness(0.6);
+    }
+    .slider__item:hover .slider__item-footer-icon {
+        filter: brightness(1);
+        border: none;
+    }
+    .schedule__upcoming-desc .schedule__time-date {
+        font-size: 1rem;
+    }
+    .schedule__upcoming-desc .schedule__time-timeline {
+        font-size: 0.75rem;
+    }
+    .schedule__upcoming-stream {
+        font-size: 0.7rem;
+    }
+    .schedule__team-name {
+        font-size: 0.9rem;
+    }
+    .slider__list .border_box {
+        border: none;
+    }
+    #content {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .content__item {
+        width: 100%;
+        padding: 50px 25px;
+    }
+    .content__heading {
+        font-size: 1.2rem;
+        margin: 18px 0;
+    }
+    .content__desc {
+        font-size: 1rem;
+    }
+    .store__heading {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    .store__heading {
+        height: 100px;
+        width: 100%;
+        align-items: center;
+        margin-left: 0;
+    }
+    .store__heading-img {
+        display: none;
+    }
+    .store__item {
+        width: 100%;
+    }
+    .legend__item {
+        height: 200px;
+    }
+    .legend__item-wrap {
+        width: 100%;
+        height: 200px;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .legend__info {
+        display: none;
+        height: 100%;
+        overflow: hidden;
+        padding: 0;
+        flex: 0.5;
+    }
+    .legend__item-imgwrap:hover + .legend__info .legend__name {
+        font-size: 2rem;
+    }
+    .legend__item-imgwrap {
+        flex: 1;
+        overflow: hidden;
+    }
+    .legend__modal-open {
+        display: none;
+    }
+    .legend__item-imgwrap:hover + .legend__info { 
+        padding-left: 0;
+    }
+    
+    /* Chưa được xử lí */
+    /* .modal {
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .modal__slider-img {
+        height: 200px;
+    }
+    .modal__container {
+        justify-content: center;
+        width: 70vw;
+        height: 70vh;
+    }
+    .modal__slider {
+        background: none;
+        border: none;
+    }
+    .modal__position {
+        display: none;
+    }
+    .modal__sub-img-list {
+        
+    }
+    .modal__player {
+
+    } */
+
+
+
+
+    /*Ticket Modal*/
+    .modal__ticket-container {
+        max-width: 95vw;
+        box-sizing: border-box;
+        overflow: scroll;
+    }
+    .modal__ticket-img {
+        display: none;
+    }
+    .modal__ticket-heading {
+        font-size: clamp(2rem, 5vw, 2rem);
+    }
+    .modal__ticket-type--name {
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .modal__ticket-type--costwrap {
+        justify-content: flex-start;
+    }
+    .modal__ticket-type--cost {
+        padding-left: 10px;
+        font-size: 1rem;
+    }
+    .modal__ticket--iconcost {
+        display: none!important;
+    }
+    .modal-ticket-type--totalcountwrap { 
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .modal__ticket-type--item {
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .modal__ticket-type--item-left {
+        box-sizing: border-box;
+        padding-right: 10px;
+    }
+    .modal__ticket-type--item-right {
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    .modal__ticket-finalcostwrap {
+        margin-right: 10px;
+    }
+    .modal__ticket-customer {
+        width: 100%;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .modal__ticket-customer-contactinfo {
+        padding-left: 0;
+    }
+    #modal__ticket-customer-name,
+    #modal__ticket-customer-address, 
+    #modal__ticket-customer-email,
+    #modal__ticket-customer-mobilenumber {
+        width: 80vw;
+    }
+    .modal__ticket-customer-confirm {
+        flex-direction: column;
+    }
+    .modal__ticket-customer-pay {
+        margin-bottom: 20px;
+    }
+    
+    /*Footer*/
+    .footer__left-list {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .footer__left-item {
+        min-width: 100%;
+    }
+    .footer__body {
+        display: none;
+    }
+    .footer__right {
+        flex: 1;
+    }
+}

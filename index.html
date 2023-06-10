@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vu Bao Siêu Phẩm Lakers NBA</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="./assest/css/main.css">
+        <link rel="stylesheet" href="./assest/css/responsive.css">
+        <link rel="stylesheet" href="./assest/css/grid.css">
+        <link rel="stylesheet" href="./assest/css/base.css">
+        <link rel="stylesheet" href="./assest/font/fontawesome-free-6.4.0-web/css/all.css">        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <!-- BEGIN HEADER -->
+            <div id="header">
+                <div class="header__bar">
+                    <a class="header__logo" href="#">
+                        <img class="header__logo-img" src="./assest/img/NBA-LOGO.jpg" alt="NBA Logo">
+                    </a>
+                    <div class="header_nav-bar">
+                        <ul class="header_nav-list">
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">
+                                    Team <i class="header__nav-icon fa-solid fa-caret-down"></i>
+                                </a>
+                                <ul class="header__subnav">
+                                    <li>
+                                        <ul class="header__subnav-list">
+                                            <li class="header__subnav-item">
+                                                <h4 class="header__subnav-heading">Atlantic</h4>
+                                                <ul class="header__subnav-section">
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Boston</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Brooklyn</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">New York</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Philadelphia</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Toronto</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="header__subnav-item">
+                                                <h4 class="header__subnav-heading">Central</h4>
+                                                <ul class="header__subnav-section">
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Chicago</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Cleveland</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Detroit</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Indiana</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Milwaukee</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="header__subnav-item">
+                                                <h4 class="header__subnav-heading">Southeast</h4>
+                                                <ul class="header__subnav-section">
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Atlanta</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Charlotte</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Miami</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Orlando</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Washington</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="header__subnav-list">
+                                            <li class="header__subnav-item">
+                                                <h4 class="header__subnav-heading">Northwest</h4>
+                                                <ul class="header__subnav-section">
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Denver</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Minnersota</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Oklahoma</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Portland</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Utah</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="header__subnav-item">
+                                                <h4 class="header__subnav-heading">Pacific</h4>
+                                                <ul class="header__subnav-section">
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Golden State</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">LA Clippers</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">LA Lakers</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Phoenix</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Sacramento</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="header__subnav-item">
+                                                <h4 class="header__subnav-heading">Southwest</h4>
+                                                <ul class="header__subnav-section">
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Dallas</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Houston</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">Memphis</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">New Orleans</a></li>
+                                                    <li class="header__subnav-section--item"><a class="header__subnav-section--link" href="">San Antonio</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="hide-on-tabletmobile header__nav-item">
+                                <a href="#" class="header__nav-link">G League</a>
+                            </li>
+                            <li class="hide-on-tabletmobile header__nav-item">
+                                <a href="#" class="header__nav-link">WNBA</a>
+                            </li>
+                            <li class="hide-on-tabletmobile header__nav-item">
+                                <a href="#" class="header__nav-link">BAL</a>
+                            </li>
+                            <li class="hide-on-tabletmobile header__nav-item">
+                                <a href="#" class="header__nav-link">NBA2K</a>
+                            </li>
+                            <li class="hide-on-tabletmobile header__nav-item">
+                                <a href="#" class="header__nav-link">
+                                    NBA Initiative <i class="header__nav-icon fa-solid fa-caret-down"></i>
+                                </a>
+                                <ul class="header__initiative">
+                                    <li class="header__initiative-item"><a class="header__initiative-link" href="">NBA Cares</a></li>
+                                    <li class="header__initiative-item"><a class="header__initiative-link" href="">Jr NBA</a></li>
+                                    <li class="header__initiative-item"><a class="header__initiative-link" href="">NBA Foundation</a></li>
+                                    <li class="header__initiative-item"><a class="header__initiative-link" href="">Social Justice Coalition</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">NBA Store</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">NBA League Pass</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">NBA ID</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- END HEADER -->
+            <!-- BEGIN BANNER -->
+            <div id="banner">
+                <div class="cross-bar"></div>
+                <div id="scroll-top" class="banner__bar">
+                    <div class="banner_bar-menu-wrap">
+                        <a href="#" class="banner__nav-link">
+                            <img class="banner__nav-logo" src="/assest/img/Los-Angeles-Lakers-Fantasy-Basketball-Preview-1-750x430.png" alt="">
+                        </a>
+                        <div class="banner__bar-menu show-on-tabletmobile">
+                            <i class="js-banner-menu banner__bar-menu-icon fa-solid fa-bars"></i>
+                        </div>
+                        <div class="banner__nav">
+                            <div class="banner__nav-wrap">
+                                <span class="banner__nav-close">
+                                    <i class="banner__nav-close--icon fa-solid fa-xmark"></i>
+                                </span>
+                                <ul class="banner__mainnav-list">
+                                    <li class="banner__nav-item"><a href="#banner" class="banner__nav-link">Schedule</a></li>
+                                    <li class="banner__nav-item"><a href="#slider" class="banner__nav-link">News and Media</a></li>
+                                    <li class="banner__nav-item"><a href="#content" class="banner__nav-link">Tickets</a></li>
+                                    <li class="banner__nav-item"><a href="#store" class="banner__nav-link">Store</a></li>
+                                    <li class="banner__nav-item"><a href="#legend" class="banner__nav-link">Legends</a></li>
+                                </ul>
+                                <ul class="banner__smallnav-list">
+                                    <li class="banner__smallnav-item">
+                                        <a href="#" class="banner__smallnav-link">Laker Girls
+                                        </a>
+                                        <div class="banner__smallnav-show">
+                                            <i class="banner__smallnav-showicon fa-solid fa-chevron-down"></i>
+                                        </div>
+                                        <ul class="banner__smallnav--subnav-list">
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">See the team</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="banner__smallnav-item">
+                                        <a href="#" class="banner__smallnav-link">Comunity</a>
+                                        <div class="banner__smallnav-show">
+                                            <i class="banner__smallnav-showicon fa-solid fa-chevron-down"></i>
+                                        </div>
+                                        <ul class="banner__smallnav--subnav-list">
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">Community News</a>
+                                            </li>
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">Lakers Youth Foundation</a>
+                                            </li>
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">Laker and UCLA Health in the Community</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="banner__smallnav-item">
+                                        <a href="#" class="banner__smallnav-link">Store</a>
+                                        <div class="banner__smallnav-show">
+                                            <i class="banner__smallnav-showicon fa-solid fa-chevron-down"></i>
+                                        </div>
+                                        <ul class="banner__smallnav--subnav-list">
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">Lakersstore.com</a>
+                                            </li>
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">Laker NBA Store</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="banner__smallnav-item">
+                                        <a href="#" class="banner__smallnav-link">Conect</a>
+                                        <div class="banner__smallnav-show">
+                                            <i class="banner__smallnav-showicon fa-solid fa-chevron-down"></i>
+                                        </div>
+                                        <ul class="banner__smallnav--subnav-list">
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">Connect</a>
+                                            </li>
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">Mobile App</a>
+                                            </li>
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">Wallpapers</a>
+                                            </li>
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">Lakers Publications</a>
+                                            </li>
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">Email Sign-up</a>
+                                            </li>
+                                            <li class="banner__smallnav--subnav-item">
+                                                <a class="banner__smallnav--subnav-link">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="banner__smallnav-item">
+                                        <a href="#" class="banner__smallnav-link">Careers</a>
+                                    </li>
+                                </ul>
+                                <div class="banner__info">
+                                    <ul class="banner__social">
+                                        <li class="banner__social-item">
+                                            <a href="#" class="banner__social-link"><i class="banner__social-icon fa-brands fa-facebook"></i></a>
+                                        </li>
+                                        <li class="banner__social-item">
+                                            <a href="#" class="banner__social-link"><i class="banner__social-icon fa-brands fa-instagram"></i></a>
+                                        </li>
+                                        <li class="banner__social-item">
+                                            <a href="#" class="banner__social-link"><i class="banner__social-icon fa-brands fa-twitter"></i></a>
+                                        </li>
+                                        <li class="banner__social-item">
+                                            <a href="#" class="banner__social-link"><i class="banner__social-icon fa-brands fa-youtube"></i></a>
+                                        </li>
+                                        <li class="banner__social-item">
+                                            <a href="#" class="banner__social-link"><i class="banner__social-icon fa-brands fa-tiktok"></i></a>
+                                        </li>
+                                        <li class="banner__social-item">
+                                            <a href="#" class="banner__social-link"><i class="banner__social-icon fa-solid fa-ghost"></i></a>
+                                        </li>
+                                        <li class="banner__social-item">
+                                            <a href="#" class="banner__social-link"><i class="banner__social-icon fa-solid fa-envelope"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                    <span class="banner__search">
+                        <span class="banner__search-btn"><i class="banner__search-icon fa-solid fa-magnifying-glass"></i></span>
+                        <div class="banner__search-box">
+                            <a href="#" class="banner__search-box--link"><i class="banner__search-box--icon fa-solid fa-magnifying-glass"></i></a>
+                            <input class="banner__search-box--input" placeholder="Search" type="text">
+                            <span class="banner__search-box--link banner__search-close--btn"><i class="banner__search-box--icon fa-solid fa-x"></i></span>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <!-- END BANNER -->
+            <!-- BEGIN SCHEDULE -->
+            <div id="schedule">
+                <div class="schedule__brand">
+                    <p class="schedule__label">Powered by Delta</p>
+                    <img src="./assest/img/delta-logo.png" alt="Delta logo" class="schedule__logo">
+                </div>
+                <div class="schedule__bar">
+                    <span title="Scroll-schedule" class="schedule__button js-scroll-schedule-left">
+                        <i class="schedule__button-icon fa-solid fa-angle-left"></i>
+                    </span>
+                    <ul class="schedule__list">
+                        <!-- FINISH GAME -->
+                        <div class="schedule__list-finish">
+                            
+                        </div>
+                        
+                        <!-- UP-COMING -->
+                        <li class="schedule__item schedule__item-upcoming">
+                            <div class="schedule__item-wrap">
+                                <div class="schedule__time">
+                                    <label class="schedule__locate">Away</label>
+                                </div>
+                                <div class="schedule__result">
+                                    <div class="schedule__team">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Los-Angeles-Lakers-Fantasy-Basketball-Preview-1-750x430.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Lakers</h4>
+                                        </div>
+                                    </div>
+                                    <div class="schedule__upcoming-desc">
+                                        <h4 class="schedule__time-date">Thursday May 18</h4>
+                                        <h5 class="schedule__time-timeline">18 5:30 PM PDT</h5>
+                                    </div>
+                                    <div class="schedule__team">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Denver Nuggets Logo (PNG480p) - Vector69Com.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Nuggets</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="schedule__upcoming-live">
+                                    <h4 class="schedule__upcoming-stream">TV: ESPN</h4>
+                                    <h4 class="schedule__upcoming-stream">RADIO: ESPN LA 710/KWKW (S)</h4>
+                                </div>
+                            </div>
+                            <div class="schedule__video">
+                                <a href="#" class="schedule__video-item">
+                                    <i class="schedule__video-icon fa-solid fa-video"></i>
+                                    <label for="" class="schedule__video-label">Watch</label>
+                                </a>
+                            </div>
+                        </li>
+                        <!-- BUY TICKET -->
+                        <li class="schedule__item">
+                            <div class="schedule__item-wrap">
+                                <div class="schedule__time">
+                                    <h4 class="schedule__time-desc">Sat. May 20, 5:30 PM PDT</h4>
+                                    <label class="schedule__locate">Home</label>
+                                </div>
+                                <div class="schedule__result">
+                                    <div class="schedule__team schedule__team-win">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Los-Angeles-Lakers-Fantasy-Basketball-Preview-1-750x430.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Lakers</h4>
+                                        </div>
+                                    </div>
+                                    <div class="schedule__team">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Denver Nuggets Logo (PNG480p) - Vector69Com.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Nuggets</h4>
+                                        </div>
+                                    </div>
+                                    <h4 class="schedule__stream-place">TV: ABC <br> RADIO: SPN LA 710/KWKW (S)</h4>
+                                </div>
+                            </div>
+                            <div class="schedule__video">
+                                <a href="#" class="schedule__video-item">
+                                    <i class="schedule__video-icon fa-solid fa-video"></i>
+                                    <label for="" class="schedule__video-label">Watch Replay</label>
+                                </a>
+                                <a href="#" class="buy-ticket-btn schedule__video-item">
+                                    <i class="schedule__video-icon fa-solid fa-ticket"></i>
+                                    <label for="" class="schedule__video-label">Buy Ticket</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="schedule__item">
+                            <div class="schedule__item-wrap">
+                                <div class="schedule__time">
+                                    <h4 class="schedule__time-desc">Mon. May 22, 5:30 PM PDT</h4>
+                                    <label class="schedule__locate">Home</label>
+                                </div>
+                                <div class="schedule__result">
+                                    <div class="schedule__team schedule__team-win">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Los-Angeles-Lakers-Fantasy-Basketball-Preview-1-750x430.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Lakers</h4>
+                                        </div>
+                                    </div>
+                                    <div class="schedule__team">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Denver Nuggets Logo (PNG480p) - Vector69Com.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Nuggets</h4>
+                                        </div>
+                                    </div>
+                                    <h4 class="schedule__stream-place">TV: ABC <br> RADIO: SPN LA 710/KWKW (S)</h4>
+                                </div>
+                            </div>
+                            <div class="schedule__video">
+                                <a href="#" class="schedule__video-item">
+                                    <i class="schedule__video-icon fa-solid fa-video"></i>
+                                    <label for="" class="schedule__video-label">Watch Replay</label>
+                                </a>
+                                <a href="#" class="buy-ticket-btn schedule__video-item">
+                                    <i class="schedule__video-icon fa-solid fa-ticket"></i>
+                                    <label for="" class="schedule__video-label">Buy Ticket</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="schedule__item">
+                            <div class="schedule__item-wrap">
+                                <div class="schedule__time">
+                                    <h4 class="schedule__time-desc">Wed. May 24, 5:30 PM PDT</h4>
+                                    <label class="schedule__locate">Away</label>
+                                </div>
+                                <div class="schedule__result">
+                                    <div class="schedule__team schedule__team-win">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Los-Angeles-Lakers-Fantasy-Basketball-Preview-1-750x430.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Lakers</h4>
+                                        </div>
+                                    </div>
+                                    <div class="schedule__team">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Denver Nuggets Logo (PNG480p) - Vector69Com.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Nuggets</h4>
+                                        </div>
+                                    </div>
+                                    <h4 class="schedule__stream-place">TV: ABC <br> RADIO: SPN LA 710/KWKW (S)</h4>
+                                </div>
+                            </div>
+                            <div class="schedule__video">
+                                <a href="#" class="schedule__video-item">
+                                    <i class="schedule__video-icon fa-solid fa-video"></i>
+                                    <label for="" class="schedule__video-label">Watch Replay</label>
+                                </a>
+                                <a href="#" class="buy-ticket-btn schedule__video-item">
+                                    <i class="schedule__video-icon fa-solid fa-ticket"></i>
+                                    <label for="" class="schedule__video-label">Buy Ticket</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="schedule__item">
+                            <div class="schedule__item-wrap">
+                                <div class="schedule__time">
+                                    <h4 class="schedule__time-desc">Fri. May 26, 5:30 PM PDT</h4>
+                                    <label class="schedule__locate">Home</label>
+                                </div>
+                                <div class="schedule__result">
+                                    <div class="schedule__team schedule__team-win">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Los-Angeles-Lakers-Fantasy-Basketball-Preview-1-750x430.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Lakers</h4>
+                                        </div>
+                                    </div>
+                                    <div class="schedule__team">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Denver Nuggets Logo (PNG480p) - Vector69Com.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Nuggets</h4>
+                                        </div>
+                                    </div>
+                                    <h4 class="schedule__stream-place">TV: ABC <br> RADIO: SPN LA 710/KWKW (S)</h4>
+                                </div>
+                            </div>
+                            <div class="schedule__video">
+                                <a href="#" class="schedule__video-item">
+                                    <i class="schedule__video-icon fa-solid fa-video"></i>
+                                    <label for="" class="schedule__video-label">Watch Replay</label>
+                                </a>
+                                <a href="#" class="buy-ticket-btn schedule__video-item">
+                                    <i class="schedule__video-icon fa-solid fa-ticket"></i>
+                                    <label for="" class="schedule__video-label">Buy Ticket</label>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="schedule__item">
+                            <div class="schedule__item-wrap">
+                                <div class="schedule__time">
+                                    <h4 class="schedule__time-desc">Sun. May 28, 5:30 PM PDT</h4>
+                                    <label class="schedule__locate">Away</label>
+                                </div>
+                                <div class="schedule__result">
+                                    <div class="schedule__team schedule__team-win">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Los-Angeles-Lakers-Fantasy-Basketball-Preview-1-750x430.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Lakers</h4>
+                                        </div>
+                                    </div>
+                                    <div class="schedule__team">
+                                        <div class="schedule__team-decs">
+                                            <img src="./assest/img/Denver Nuggets Logo (PNG480p) - Vector69Com.png" alt="" class="schedule__team-logo">
+                                            <h4 class="schedule__team-name">Nuggets</h4>
+                                        </div>
+                                    </div>
+                                    <h4 class="schedule__stream-place">TV: ABC <br> RADIO: SPN LA 710/KWKW (S)</h4>
+                                </div>
+                            </div>
+                            <div class="schedule__video">
+                                <a href="#" class="schedule__video-item">
+                                    <i class="schedule__video-icon fa-solid fa-video"></i>
+                                    <label for="" class="schedule__video-label">Watch Replay</label>
+                                </a>
+                                <a href="#" class="buy-ticket-btn schedule__video-item">
+                                    <i class="schedule__video-icon fa-solid fa-ticket"></i>
+                                    <label for="" class="schedule__video-label">Buy Ticket</label>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <span title="Scroll-schedule" class="js-scroll-schedule-right schedule__button">                    
+                        <i class="schedule__button-icon fa-solid fa-angle-right"></i>
+                    </span>
+                </div>
+            </div>
+    
+    
+            <div id="slider">
+                <div class="slider__background"></div>
+                <div class="slider__content">
+                    <heading class="slider__heading"></heading>
+                    <ul class="slider__list">
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <div class="content__item">
+                    <img class="content__img" src="./assest/img/2223_lal_tix_lalvsgsw_v1_1328x784.jpg" alt="">
+                    <h1 class="content__heading">
+                        Lakers Playoff Tickets
+                    </h1>
+                    <p class="content__desc">Tickets for the Western Conference Finals against the Denver Nuggets go on sale on Monday,
+                         5/15, at 12pm PT. Tickets will be sold on Ticketmaster.com.
+                    </p>
+                    <span class="buy-ticket-btn content__ticket-buy">Buy ticket</span>
+                    <p class="content__desc">The Lakers will play at home on 5/20, 5/22, and 5/26*.
+                        <br>
+                        *-if necessary
+                   </p>
+                </div>
+                <div class="content__item">
+                    <img class="content__img" src="./assest/img/2223_lal_mktg_watch_spectrum_1328x784_em.jpg" alt="">
+                    <h1 class="content__heading">
+                        Watch for Every Game
+                    </h1>
+                    <p class="content__desc">
+                        Get ready for each game and recap all the action on Spectrum SportsNet pregame and postgame shows.
+                        <br>
+                        For all the games of the playoffs, Spectrum SportsNet has you covered.
+                    </p>
+                </div>
+                <div class="modal__ticket">
+                    <div class="modal__ticket-container">
+                        <img src="./assest/img/modal-ticket.png" alt="" class="modal__ticket-img">
+                        <div class="modal__ticket-body">
+                            <h1 class="modal__ticket-heading">Buy Ticket</h1>
+                            <div class="modal__ticket-body-wrap">
+                                <div class="modal__ticket-type">
+                                    <ul class="modal__ticket-type--list">
+                                        <!-- Back end handle -->
+                                    </ul>
+                                    <span class="modal__ticket-finalcostwrap">
+                                        Total : 
+                                        <span class="modal__ticket-dolar-icon">$</span>
+                                        <span class="modal__ticket-finalcost">0</span>
+                                    </span>
+                                </div>
+                                <form action="" method="POST" id="form-1" class="modal__ticket-customer">
+                                    <div class="modal__ticket-customer-basicinfo">
+                                        <div class="form-group">
+                                            <label for="modal__ticket-customer-name" class="modal__ticket-customer-namelabel form-label">Full name: </label>
+                                            <input type="text" name="customer-name" id="customer-name" class="form-input">
+                                            <span class="form-message"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="modal__ticket-customer-email" class="modal__ticket-customer-emaillabel form-label">Email Address: </label>
+                                            <input type="text" name="email_address" id="customer-email" class="form-input">
+                                            <span class="form-message"></span>
+                                        </div>
+                                    </div>
+                                    <div class="modal__ticket-customer-contactinfo">
+                                        <div class="form-group">
+                                            <label for="modal__ticket-customer-address" class="modal__ticket-customer-addresslabel form-label">Address </label>
+                                            <input type="text" name="customer-address" id="customer-address" class="form-input">
+                                            <span class="form-message"></span>
+                                        </div>
+                                        <div class="modal__ticket-customer-confirm">
+                                            <div class="modal__ticket-customer-phone">
+                                                <div class="form-group">
+                                                    <label for="modal__ticket-customer-mobilenumber" class="modal__ticket-customer-phonelabel form-label">Phone number </label>
+                                                    <input type="text" name="phone_number" id="customer-phonenumber" class="form-input">
+                                                    <span class="form-message"></span>
+                                                </div>
+                                            </div>
+                                            <div class="modal__ticket-customer-paywrap">
+                                                <button class="modal__ticket-customer-pay form-submit">
+                                                    <i class="modal__ticket-customer-pay--icon fa-solid fa-credit-card"></i>
+                                                    PAY
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="store">
+                <h1 class="store__heading">Lakers Shop</h1>
+                <ul class="store__list">
+                    <li class="store__item">
+                        <a class="store__item-link">Buy now
+                        </a>
+                        <img class="store__item-img" src="./assest/img/store1.jpg" alt="">
+                    </li>
+                    <li class="store__item">
+                        <a class="store__item-link">Buy now
+                        </a>
+                        <img class="store__item-img" src="./assest/img/store2.jpg" alt="">
+                    </li>
+                    <li class="store__item">
+                        <a class="store__item-link">Buy now
+                        </a>
+                        <img class="store__item-img" src="./assest/img/store3.jpg" alt="">
+                    </li>
+                    <li class="store__item">
+                        <a class="store__item-link">Buy now
+                        </a>
+                        <img class="store__item-img" src="./assest/img/store4.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div id="legend">
+                <h1 class="legend__title">Legendary</h1>
+                <div class="row">
+                    <ul class="legend__list">
+                        <!-- Load Data Legend by Js -->
+                    </ul>
+                </div>
+                <div class="modal">
+                    <div class="modal__container">
+                        <div class="modal__slider">
+                            <div class="modal__slider-img">
+                            </div>
+                        </div>
+                        <div class="modal__player">
+                            <h1 class="modal__heading"></h1>
+                            <span class="modal__position"></span>
+                            <ul class="modal__sub-img-list">
+                                <li class="modal__sub-img-item__1 modal__sub-img-item"></li>
+                                <li class="modal__sub-img-item__2 modal__sub-img-item"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="footer__head">
+                    <div class="footer__left">
+                        <ul class="footer__left-list">
+                            <li class="footer__left-item">
+                                <h1 class="footer__left-head">GAME DAY</h1>
+                                <ul class="footer__left-sublist">
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Game Notes</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Injury Report</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Laker Girls</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Lakers Ticket Exchange</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Tickets</a></li>
+                                </ul>
+                            </li>
+                            <li class="footer__left-item">
+                                <h1 class="footer__left-head">BROADCAST</h1>
+                                <ul class="footer__left-sublist">
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Where to Watch/Listen</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Schedule</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Audio League Pass</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">NBA League Pass</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Broadcasters</a></li>
+                                </ul>
+                            </li>
+                            <li class="footer__left-item">
+                                <h1 class="footer__left-head">MEDIA PARTNERS</h1>
+                                <ul class="footer__left-sublist">
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Spectrum SportsNet</a></li>
+            
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">710 ESPNLA</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Lakers Radio Network</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Tu Liga Radio</a></li>
+                                </ul>
+        
+                            </li>
+                            <li class="footer__left-item">
+                                <h1 class="footer__left-head">SOCIAL MEDIA</h1>
+                                <ul class="footer__left-sublist">
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Twitter</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Instagram</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Snapchat</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Facebook</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Lakers Email News</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">YouTube</a></li>
+                                    <li class="footer__left-subitem"><a class="footer__left-link" href="">Weibo</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__right">
+                        <h1 class="footer__right-heading">Connect</h1>
+                        <ul class="footer__right-list">
+                            <li class="footer__right-item"><a class="footer__right-link" href=""><i class="footer__right-icon fa-brands fa-facebook"></i></a></li>
+                            <li class="footer__right-item"><a class="footer__right-link" href=""><i class="footer__right-icon fa-brands fa-twitter"></i></a></li>
+                            <li class="footer__right-item"><a class="footer__right-link" href=""><i class="footer__right-icon fa-brands fa-instagram"></i></a></li>
+                            <li class="footer__right-item"><a class="footer__right-link" href=""><i class="footer__right-icon fa-brands fa-youtube"></i></a></li>
+                            <li class="footer__right-item"><a class="footer__right-link" href=""><i class="footer__right-icon fa-brands fa-tiktok"></i></a></li>
+                            <li class="footer__right-item"><a class="footer__right-link" href=""><i class="footer__right-icon fa-brands fa-square-snapchat"></i></a></li>
+                            <li class="footer__right-item"><a class="footer__right-link" href=""><i class="footer__right-icon fa-solid fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__body">
+                    <h1 class="footer__body-header">Copyright © 2023 NBA Media Ventures, LLC. All rights reserved.</h1>
+                    <ul class="footer__body-list">
+                        <li class="footer__body-item"><a class="footer__body-link" href="">Privacy Policy</a></li>
+                        <li class="footer__body-item"><a class="footer__body-link" href="">Terms of Use</a></li>
+                        <li class="footer__body-item"><a class="footer__body-link" href="">Customer Support</a></li>
+                        <li class="footer__body-item"><a class="footer__body-link" href="">Accessibility and Closed Captions</a></li>
+                        <li class="footer__body-item"><a class="footer__body-link" href="">Do Not Sell My Personal Information</a></li>
+                    </ul>
+                    <p class="footer__body-desc">If you are having difficulty accessing any content on this website, please visit our Accessibility page. 
+                        NBA.com is part of Warner Media, LLC’s Turner Sports & Entertainment Digital Network</p>
+                    <h3 class="footer__body-foot">Warner Media Logo</h3>
+                </div>
+            </div>
+        </div>
+        <script src="./main.js"></script>
+        <script>
+            //Output Exspect
+            Validator({
+                form: '#form-1',
+                formGroupSelector: '.form-group',
+                errorSelector: '.form-message',
+                rules: [
+                    Validator.isRequired('#customer-name','Please enter your name'),
+                    Validator.isRequired('#customer-email','Please enter your email'),
+                    Validator.isEmail('#customer-email','This field must be email'),
+                    Validator.isRequired('#customer-phonenumber','Please enter your name'),
+                    Validator.minLength('#customer-phonenumber',3,'This field must be phone number'),
+                    Validator.isRequired('#customer-address','Please enter your name')
+                ],
+                onSubmit: function(data) {
+                //Call API
+                    var jsonData = JSON.stringify(data)
+                    console.log(jsonData)
+                },
+            });
+        </script>
+    </body>
+</html>
